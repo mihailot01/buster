@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Buster Navigation App</string>
+    <string name="cancel">Cancel</string>
+    <string name="start">Start</string>
+    <string name="unavailable">Unavailable </string>
+</resources>

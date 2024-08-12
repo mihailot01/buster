@@ -1,0 +1,66 @@
+[versions]
+agp = "8.3.1"
+coreTesting = "2.2.0"
+kotlin = "1.9.23"
+coreKtx = "1.12.0"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+kotlinxCoroutinesCore = "1.7.1"
+kotlinxCoroutinesTest = "1.7.1"
+material = "1.11.0"
+ktlint = "12.1.0"
+mockk = "1.13.9"
+fragment = "1.6.2"
+activity = "1.8.2"
+constraintlayout = "2.1.4"
+lifecycle = "2.7.0"
+jetbrainsKotlinJvm = "1.9.22"
+navigationUiKtx = "2.7.7"
+navsdk-version = "0.50.6"
+dagger= "2.50"
+retrofit = "2.9.0"
+rules = "1.5.0"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-core-testing = { module = "androidx.arch.core:core-testing", version.ref = "coreTesting" }
+androidx-navigation-fragment-ktx = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigationUiKtx" }
+androidx-navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigationUiKtx" }
+converter-moshi = { module = "com.squareup.retrofit2:converter-moshi", version.ref = "retrofit" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCoroutinesCore" }
+kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlinxCoroutinesTest" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+mockk = { group = "io.mockk", name = "mockk", version.ref="mockk"}
+androidx-fragment = { group = "androidx.fragment", name = "fragment", version.ref = "fragment" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-lifecycle= { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle"}
+navsdk-provider-android = { group = "com.tomtom.sdk.location", name = "provider-android", version.ref = "navsdk-version"}
+navsdk-provider-map-matched = { group = "com.tomtom.sdk.location", name = "provider-map-matched", version.ref = "navsdk-version"}
+navsdk-provider-simulation = { group = "com.tomtom.sdk.location", name = "provider-simulation", version.ref = "navsdk-version"}
+navsdk-map-display= { group = "com.tomtom.sdk.maps", name = "map-display", version.ref = "navsdk-version"}
+navsdk-navigation-tile-store= { group = "com.tomtom.sdk.datamanagement", name = "navigation-tile-store", version.ref = "navsdk-version"}
+navsdk-navigation-online = { group = "com.tomtom.sdk.navigation", name = "navigation-online", version.ref = "navsdk-version"}
+navsdk-ui= { group = "com.tomtom.sdk.navigation", name = "ui", version.ref = "navsdk-version"}
+navsdk-route-planner = { module = "com.tomtom.sdk.routing:route-planner-online", version.ref = "navsdk-version" }
+navsdk-route-replanner = { module = "com.tomtom.sdk.navigation:route-replanner-online", version.ref = "navsdk-version" }
+dagger = { module = "com.google.dagger:dagger", version.ref="dagger"}
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref="dagger"}
+hilt-android-compiler = {module = "com.google.dagger:hilt-android-compiler", version.ref="dagger"}
+androidx-rules = { group = "androidx.test", name = "rules", version.ref = "rules" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+jlleitschuhGradleKtlint = { id = "org.jlleitschuh.gradle.ktlint", version.ref = "ktlint" }
+jetbrainsKotlinJvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrainsKotlinJvm" }
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
+daggerHiltAndroid = { id = "com.google.dagger.hilt.android", version.ref="dagger"}
+
