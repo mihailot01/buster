@@ -16,9 +16,7 @@ On-boarding project for our new-joiners.
 Project duration: 1 month
 
 Team:
-* Konstantin Benović
 * Mihailo Trajković
-* Ljubica Muravljov
 
 Project management:
 
